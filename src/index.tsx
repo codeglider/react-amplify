@@ -7,13 +7,13 @@ import App from './Components/App';
 import { GlobalStyles } from './global';
 
 /** Amplify config */
-import awsconfig from './aws-exports';
+import awsconfig from './aws-exports'; 
 
 /** Service worker */
 import * as serviceWorker from './serviceWorker';
 
 /** Configure amplify */
-Amplify.configure(awsconfig);
+Amplify.configure(awsconfig); 
 
 ReactDOM.render(
   <>
